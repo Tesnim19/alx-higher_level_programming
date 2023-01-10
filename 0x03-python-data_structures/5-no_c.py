@@ -12,7 +12,3 @@ def no_c(my_string):
             j += 1
 
     return (new_string)
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
