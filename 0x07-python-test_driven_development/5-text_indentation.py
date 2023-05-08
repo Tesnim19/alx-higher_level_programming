@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
-This module is "5-test_indentation" module.
-The  module supplies one function, text_indentation(text).
+This is the "5-test_indentation" module.
+The 5-text_indentation module supplies one function, text_indentation(text).
 """
 
 
