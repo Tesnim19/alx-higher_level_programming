@@ -24,7 +24,7 @@ Checking for no args:
 	 TypeError: text_indentation() missing 1 required positional argument: 'text'
 
 Checking for too many args:
-	 >>> text_indentation("Hello", "Hi")
+	 >>> text_indentation("Tesnim", "Abdi")
 	 Traceback (most recent call last):
 	 ...
 	 TypeError: text_indentation() takes 1 positional argument but 2 were given
@@ -119,8 +119,8 @@ Checking for standalone special chars:
 	 <BLANKLINE>
 
 Checking for one word:
-	 >>> text_indentation("Tesnim")
-	 Tesnim
+	 >>> text_indentation("Hello")
+	 Hello
 
 Checking for newline at beginning:
 	 >>> text_indentation(" \n Hello. Whatcha up to?")
@@ -131,15 +131,15 @@ Checking for newline at beginning:
 	 <BLANKLINE>
  
 Checking for newline in middle:
-	 >>> text_indentation("Hi \n . Who are you?")
-	 Hi 
+	 >>> text_indentation("Hello \n . How are you?")
+	 Hello 
 	  .
 	 <BLANKLINE>
-	 Who are you?
+	 How are you?
 	 <BLANKLINE>
 
 Checking for newline at end:
-	 >>> text_indentation("Hi, how are you?\n")
-	 Hi, how are you?
+	 >>> text_indentation("Hello, how are you?\n")
+	 Hello, how are you?
 	 <BLANKLINE>
 	 <BLANKLINE>
